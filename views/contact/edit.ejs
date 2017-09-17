@@ -4,7 +4,7 @@
 <%if(status !== "Error" || errorType === "validation-error") { %>
 <img src="<%=contact.profileImageUrl%>" alt="<%=contact.firstName%> <%=contact.lastName%>" class="img-circle" width="200px" height="auto"/>
 <form role="form"action="/contact" method="post">
-    <!-- This line below is to support PUT HTTP method. Works only in Express JS Server. It's cool-->
+    <!-- This line below is to support PUT HTTP method. Works only in Express JS Server. It's cool -->
     
    <input type="hidden" name="_method" value="put">
    
